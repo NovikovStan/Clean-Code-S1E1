@@ -106,7 +106,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-#new-task {
+.task__new {
   width: 318px;
 }
 
@@ -150,7 +150,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+.task__completed label {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +160,11 @@ li input[type=text] {
   display:none;
 }
 
-.editMode input[type=text] {
+.task__edit input[type=text] {
   display:inline-block;
   width:224px
 }
 
-.editMode label {
+.task__edit label {
   display:none;
 }
