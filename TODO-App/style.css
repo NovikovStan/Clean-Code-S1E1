@@ -136,7 +136,7 @@ li > label {
 }
 
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete img {
@@ -160,11 +160,11 @@ li input[type=text] {
   display:none;
 }
 
-.task__edit input[type=text] {
+.edit-mode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-.task__edit label {
+.edit-mode label {
   display:none;
 }
