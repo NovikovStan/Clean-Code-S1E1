@@ -158,14 +158,14 @@ h3,
 
 /* Edit Task */
 .task-list__item .task-input {
-  display:none;
+  display: none;
 }
 
 .edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-label {
-  display:none;
+  display: none;
 }
